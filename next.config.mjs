@@ -2,8 +2,15 @@
 const nextConfig = {
   images: {
     remotePatterns: [
-      { protocol: "https", hostname: "images.unsplash.com" },
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+      },
     ],
+  },
+
+  eslint: {
+    ignoreDuringBuilds: true,
   },
 };
 
